@@ -21,4 +21,4 @@ open_2 = open(name2)
 txt1 = open_1.read().replace("\n", " ")
 txt2 = open_2.read().replace("\n", " ")
 
-print(compare(txt1, txt2)/len(txt1)*100)
+print(compare(txt1, txt2)/len(txt1))
